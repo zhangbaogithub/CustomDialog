@@ -5,8 +5,8 @@ def GROUP_ID = 'com.sh.widget'
 def ARTIFACT_ID = 'loadingdialog'
 
 
-def siteUrl = 'https://github.com/sh/loadingdialog' // 项目的主页
-def gitUrl = 'https://github.com/sh/loadingdialog' // Git仓库的url
+def siteUrl = 'https://github.com/zhangbaogithub/LodingDialog' // 项目的主页
+def gitUrl = 'git@github.com:zhangbaogithub/LodingDialog.git' // Git仓库的url
 
 group = GROUP_ID
 archivesBaseName = 'loadingdialog'
