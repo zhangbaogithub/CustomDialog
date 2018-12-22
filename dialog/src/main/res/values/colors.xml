@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_divider_color">#d1d5d8</color>
+    <color name="black_text_color">#333333</color>
+    <color name="green_text_color">#6dd024</color>
+    <color name="grey_bg_color">#f0f0f0</color>
+</resources>
