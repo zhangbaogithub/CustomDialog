@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class LoadingDialog extends Dialog {
     private String content;
     private TextView tvContent;
-    private boolean isShowNavBar;
+    private boolean isShowNavBar = true;
 
     public LoadingDialog(Context context, String content, boolean isShowNavBar) {
         super(context, R.style.CustomDialog);
@@ -24,6 +24,18 @@ public class LoadingDialog extends Dialog {
         super(context, R.style.CustomDialog);
         this.content = (String) context.getText(resId);
         this.isShowNavBar = isShowNavBar;
+        initView();
+    }
+
+    public LoadingDialog(Context context, String content) {
+        super(context, R.style.CustomDialog);
+        this.content = content;
+        initView();
+    }
+
+    public LoadingDialog(Context context, int resId) {
+        super(context, R.style.CustomDialog);
+        this.content = (String) context.getText(resId);
         initView();
     }
 
