@@ -43,6 +43,7 @@ public class LoadingDialog extends Dialog {
         setContentView(R.layout.dialog_loading);
         tvContent = findViewById(R.id.tvContent);
         tvContent.setText(content);
+        if (content.isEmpty()) tvContent.setVisibility(View.GONE);
         setCanceledOnTouchOutside(false);
         WindowManager.LayoutParams attributes = getWindow().getAttributes();
         attributes.alpha = 0.9f;

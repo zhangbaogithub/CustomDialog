@@ -11,7 +11,7 @@ def gitUrl = 'git@github.com:zhangbaogithub/CustomDialog.git' // Git仓库的url
 group = GROUP_ID
 archivesBaseName = 'CustomDialog'
 
-version = "1.0.0-alpha3"
+version = "1.0.0-alpha4"
 
 
 install {
